@@ -83,7 +83,7 @@ while true:
       line_height = 0
       draw_start = 0
       draw_end = 0
-      reoo = renderText(font, "nigga", color(255, 255, 255, 200), color(200, 200, 200, 200))
+      reoo = renderText(font, "test", color(255, 255, 255, 200), color(200, 200, 200, 200))
 
 
     if ray_dir_x < 0:
@@ -146,7 +146,7 @@ while true:
       inc(i, 2)
     renderer.setDrawColor new_color
     renderer.drawLine(cint(x), cint(draw_start), cint(x), cint(draw_end))
-    renderText(font, "nigga", color(255, 255, 255, 200), color(200, 200, 200, 200))
+    renderText(font, "test", color(255, 255, 255, 200), color(200, 200, 200, 200))
   renderer.present
 #  var event = defaultEvent
 #  old_time = time
